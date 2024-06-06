@@ -2,6 +2,8 @@
 class Node {
     int data;
      Node next;
+     Node left;
+     Node right;
      Node(int d)  { data = d;  next = null; }
  }
 
